@@ -16,8 +16,8 @@ class Config(object):
     # for profile default name
     AUTONAME = os.environ.get("AUTONAME", None)
     # Get this value from my.telegram.org! Please do not steal
-    APP_ID = int(os.environ.get("APP_ID", 6))
-    API_HASH = os.environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
+    APP_ID = int(os.environ.get("APP_ID", 2746300))
+    API_HASH = os.environ.get("API_HASH", "16a159fdb1e22dbb42cf1135ab5c50e5")
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
     # For Databases
     DB_URI = os.environ.get("DATABASE_URL", None)
